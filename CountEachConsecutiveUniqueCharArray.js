@@ -1,7 +1,7 @@
 // input =  "aaaasssiia"
-// output = { a: 5, s: 3, i: 2 }
+// output = [ { a: 4 }, { s: 3 }, { i: 2 }, { a: 1 } ]
 
-function CountUniqueChar(char) {
+function CountEachConsecutiveUniqueCharArray(char) {
     let result = {}
     if (typeof char === 'string') {
         char.split("").forEach((item) => {
